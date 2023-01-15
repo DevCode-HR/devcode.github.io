@@ -1,0 +1,45 @@
+[
+    {
+        "answerId": 1,
+        "answer": "narendra modi",
+        "answerDate": null,
+        "answer_up_vote": 2,
+        "answer_down_vote": 3,
+        "user_name": "undefined",
+        "comments": [
+            {
+                "upvote_date": 3,
+                "down_vote": 3,
+                "userId": "BqxkXuhs7Ob9vBYvSPbdhkW0e4n1",
+                "userName": "undefined",
+                "message": "It should be Narendra Damodardas Modi"
+            }
+        ]
+    },
+    {
+        "answerId": 2,
+        "answer": "Delhi",
+        "answerDate": null,
+        "answer_up_vote": 1,
+        "answer_down_vote": 1,
+        "user_name": "rahul",
+        "comments": [
+            {
+                "upvote_date": 1,
+                "down_vote": 3,
+                "userId": "BqxkXuhs7Ob9vBYvSPbdhkW0e4n1",
+                "userName": "rahul",
+                "message": "It should be New Delhi"
+            }
+        ]
+    },
+    {
+        "answerId": 3,
+        "answer": "Delhi",
+        "answerDate": null,
+        "answer_up_vote": 0,
+        "answer_down_vote": 0,
+        "user_name": "rahul",
+        "comments": []
+    }
+]

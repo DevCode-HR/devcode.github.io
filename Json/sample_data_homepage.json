@@ -1,0 +1,455 @@
+[
+    {
+      "questionId": 1,
+      "questionTitle": "What is science?",
+      "answerContents": [
+        {
+          "answer":
+            "Science (from Latin scientia 'knowledge')[1] is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a The earliest roots of science can be traced to Ancient Egypt and Mesopotamia in around 3000 to 1200 BCE.[5][6] Their contributions to mathematics, astronomy, and medicine entered and shaped Greek natural philosophy of classical antiquity, whereby formal attempts were made to provide explanations of events in the physical world based on natural causes. ",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+        },
+        {
+          "answer":
+            "The earliest roots of science can be traced to Ancient Egypt and Mesopotamia in around 3000 to 1200 BCE.[5][6] Their contributions to mathematics, astronomy, and medicine entered and shaped Greek natural philosophy of classical antiquity, whereby formal attempts were made to provide explanations of events in the physical world based on natural causes.",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "ram@sdev.in",
+                "gender": "male"
+              },
+              "comment": "science is future you can do any things here ",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "ram@sdev.in",
+                "gender": "male"
+              },
+              "comment": "great i like it enjoy brother i agree with your words",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Sam Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+        },
+        {
+          "answer":
+            "Modern science is typically divided into three major branches[19] that consist of the natural sciences (e.g., biology, chemistry, and physics), which study nature in the broadest sense; the social sciences (e.g., economics, psychology, and sociology), which study individuals and societies;[20][21] and the formal sciences (e.g., logic, mathematics, and theoretical computer science), which deal with symbols governed by rules.",
+  
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "ram@sdev.in",
+                "gender": "male"
+              },
+              "comment": "science is future you can do any things here ",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "ram@sdev.in",
+                "gender": "male"
+              },
+              "comment": "great i like it enjoy brother i agree with your words",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Rahul Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+        },
+        {
+          "answer":
+            "New knowledge in science is advanced by research from scientists who are motivated by curiosity about the world and a desire to solve problems.[33][34] Contemporary scientific research is highly collaborative and is usually done by teams in academic and research institutions,[35] government agencies, and companies..",
+  
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "ram@sdev.in",
+                "gender": "male"
+              },
+              "comment": "science is future you can do any things here ",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Raju Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+        }
+      ],
+      
+      "likeDislike": "25",
+      "totalNoOfComment": "4"
+    },
+    {
+      "questionId": 2,
+      "questionTitle": "Why is the sky blue?",
+      "answerContents": [
+        {
+          "answer":
+            "The earth is surrounded by an atmosphere.White light is made of several different colors, like you see in a rainbow. Each of these colors travel in a wave, but the wavelength (distance between the tops of each wave) varies. Red light has a long wavelength, while blue light has a much shorter wavelength.",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+          },
+        {
+          "answer":
+            "When light from the sun enters our atmosphere, the waves collide with gas molecules. The longer wavelengths, like red and yellow, pass straight through and appear to us as “regular” sunlight..",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+          },
+        {
+          "answer":
+            "Shorter wavelengths, like blue, bump into the gas molecules and scatter in different directions. Some of it still makes it through directly, but the rest is reflected back to our eyes from all directions, so the whole sky looks blue..",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+          },
+        {
+          "answer": "Use a slinky to demonstrate wave-length motion..",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+        }
+      ],
+      
+      "likeDislike": "35",
+      "totalNoOfComment": "3"
+    },
+    {
+      "questionId": 3,
+      "questionTitle": "How much does the earth weigh?",
+      "answerContents": [
+        {
+          "answer":
+            "The earth weighs 13,170,000,000,000,000,000,000,000 pounds. You can say this number like this: 13 octillion, 170 septillion. That’s A LOT more than a million, billion, or trillion pounds!.",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+          },
+        {
+          "answer": "And still, earth weighs one billion time's more than that",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+        },
+        {
+          "answer":
+            "How do scientists know how much the earth weighs? They study the gravitational pull the earth has on other objects, and use math to calculate how big the earth must be.",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+          },
+        {
+          "answer":
+            "One male African bush elephant weighs 13,000 pounds100 elephants would weigh 1,300,000 (one million, 300 thousand) pounds.One million elephants would weigh 13,000,000,000 (13 trillion) poundsOne trillion elephants–there are not even this many on earth–would weigh 13,000,000,000,000,000 (13 quintillion) pounds..",
+          "comments": [
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "i thinks science is a very vast topic there is huse discussion on it",
+              "likeDislikecomeent": "4"
+            },
+            {
+              "userDetails": {
+                "name": "Abhishek kumar yadav",
+                "date": "27 Jan,2022",
+                "time": "4:00 pm",
+                "emailId": "kumaryadavabhi@gmail.com",
+                "gender": "male"
+              },
+              "comment":
+                "In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters",
+              "likeDislikecomeent": "4"
+            }
+          ],
+          "userDetails": {
+              "name": "Ram Kumar",
+              "date": "27 Jan,2022",
+              "time": "4:00 pm",
+              "emailId": "ram@sdev.in",
+              "gender": "male"
+            }
+          }
+      ],
+      "likeDislike": "20",
+      "totalNoOfComment": "5"
+    }
+  ]

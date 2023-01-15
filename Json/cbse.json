@@ -1,0 +1,44 @@
+[
+    {
+        "answer_id": 1,
+        "answer": "narendra modi",
+        "answer_question_id": 1,
+        "answer_created_date": "2022-03-08 12:17:00",
+        "answer_modified_date": null,
+        "answer_up_vote": 2,
+        "answer_down_vote": 3,
+        "images": "1.png/cloudinary",
+        "answer_user_id": "BqxkXuhs7Ob9vBYvSPbdhkW0e4n1",
+        "user_name": "undefined",
+        "isCommented": 1,
+        "board": "CBSE"
+    },
+    {
+        "answer_id": 2,
+        "answer": "Delhi",
+        "answer_question_id": 2,
+        "answer_created_date": "2022-03-08 16:50:26",
+        "answer_modified_date": null,
+        "answer_up_vote": 1,
+        "answer_down_vote": 1,
+        "images": "1.png/cloudinary",
+        "answer_user_id": "BqxkXuhs7Ob9vBYvSPbdhkW0e4n1",
+        "user_name": "rahul",
+        "isCommented": 1,
+        "board": "CBSE"
+    },
+    {
+        "answer_id": 3,
+        "answer": "Delhi",
+        "answer_question_id": 2,
+        "answer_created_date": "2022-03-08 20:30:26",
+        "answer_modified_date": null,
+        "answer_up_vote": 0,
+        "answer_down_vote": 0,
+        "images": "1.png/cloudinary",
+        "answer_user_id": "BqxkXuhs7Ob9vBYvSPbdhkW0e4n1",
+        "user_name": "rahul",
+        "isCommented": 0,
+        "board": "CBSE"
+    }
+]

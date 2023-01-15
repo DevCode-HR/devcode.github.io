@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>DevCode</title>
+    <link rel="shortcut icon" href="./images/title.png" />
+    <meta name="theme-color" content="#ff9933" />
+    <meta name="msapplication-navbutton-color" content="#ff9933" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff9933" />
+  </head>
+  <body id="main">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="padding: 10px 25px; background: #ffffff"
+    >
+      <div class="container-fluid">
+        <img
+          class="navbar-brand logo"
+          src="./images/title.png"
+          alt="Dev Code"
+          height="75px"
+          width="75px"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="
+            color: rgb(48 60 108);
+            border-color: rgb(48 60 108);
+            background-color: rgb(48 60 108);
+          "
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.devcode.co.in/"
+                  style="
+                    color: rgb(0, 0, 0);
+                    font-family: Lato;
+                    font-weight: Medium;
+                    font-size: 25px;
+                    opacity: 1;
+                    padding-right: 1em;
+                  "
+                >
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link header_font pointer"
+                  onclick="scrollDiv('about_us')"
+                  style="
+                    color: rgb(0, 0, 0);
+                    font-family: Lato;
+                    font-weight: Medium;
+                    font-size: 25px;
+                    opacity: 1;
+                    padding-right: 1em;
+                  "
+                >
+                  About Us
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link header_font pointer"
+                  onclick="scrollDiv('our_clients')"
+                  style="
+                    color: rgb(0, 0, 0);
+                    font-family: Lato;
+                    font-weight: Medium;
+                    font-size: 25px;
+                    opacity: 1;
+                    padding-right: 1em;
+                  "
+                >
+                  Our Clients
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link header_font pointer"
+                  onclick="scrollDiv('services')"
+                  style="
+                    color: rgb(0, 0, 0);
+                    font-family: Lato;
+                    font-weight: Medium;
+                    font-size: 25px;
+                    opacity: 1;
+                    padding-right: 1em;
+                  "
+                >
+                  Service
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link header_font pointer"
+                  onclick="scrollDiv('internship')"
+                  style="
+                    color: rgb(0, 0, 0);
+                    font-family: Lato;
+                    font-weight: Medium;
+                    font-size: 25px;
+                    opacity: 1;
+                    padding-right: 1em;
+                  "
+                >
+                  Careers
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link header_font pointer"
+                  onclick="scrollDiv('contact_us')"
+                  style="
+                    color: rgb(0, 0, 0);
+                    font-family: Lato;
+                    font-weight: Medium;
+                    font-size: 25px;
+                    opacity: 1;
+                    padding-right: 1em;
+                  "
+                >
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="top-card">
+      <div class="container">
+        <div class="row">
+          <div class="col-6-custom">
+            <div class="top-margin-45">
+              <span class="top-notice">
+                Learning New Tech And Developing Websites !!
+              </span>
+            </div>
+            <div class="top-margin-45">
+              <span class="text-lato-white">
+                With DevCode you get an interesting<br />
+                platform to grow your career.
+              </span>
+            </div>
+            <div class="top-margin-45 bottom-margin-45">
+              <span class="button-background text-white-lato pointer" onclick="scrollDiv('technologies')">Learn More</span>
+            </div>
+          </div>
+          <div class="col-6-custom">
+            <img src="./images/study-image.png" alt="Paris" class="center" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slider -->
+    <div id="technologies">
+      <div style="position: absolute; right: 0">
+        <div class="triangle-right-D0"></div>
+      </div>
+      <div style="position: absolute; right: 0">
+        <div class="triangle-right-D10"></div>
+      </div>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide relative"
+        data-bs-ride="carousel"
+        style="margin: auto; width: 75%; text-align: center; z-index: 3"
+      >
+        <div class="m-t-3e m-b-4e">
+          <span class="slider-hearder">Popular technologies taught by us</span>
+        </div>
+        <!-- Slider Button Start -->
+        <div
+          class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center"
+          style="margin-bottom: -3em; z-index: 1"
+        >
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            style="background: #724e4e; border-radius: 50%; width : 1.5em"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            style="background: #724e4e; border-radius: 50%; width: 1.5em"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            style="background: #724e4e; border-radius: 50%; width: 1.5em"
+          ></button>
+        </div>
+        <!-- Slider Button End -->
+        <div class="carousel-inner relative w-full overflow-hidden">
+          <div class="carousel-item active relative float-left w-full">
+            <div class="container">
+              <div class="row">
+                  <div class="col col-rectangular">
+                      <div class="rectangular">
+                          <img src="./images/react-icon.png" style="
+                              width: 7em;
+                              height: 6em;
+                              display: block;
+                              margin: 1em;
+                              margin-left: auto;
+                              margin-right: auto;
+                            " />
+                          <div class="line-rectangular" style="background-color: rgba(0, 216.00000232458115, 255, 1);"></div>
+                      </div>
+                      <h1 class="text-header">REACT</h1>
+                      <span class="text-info-style">
+                        React is a free and open-source front-end JavaScript library
+                  for building user interfaces based on UI components.React can
+                  be used as a base in the development of single-page or mobile
+                  applications.
+                      </span>
+                      <div class="large-triangle">
+                          <div class="small-triangle"></div>
+                      </div>
+      
+                  </div>
+                  <div class="col col-rectangular">
+                      <div class="rectangular">
+                          <img src="./images/Angular_.svg" style="
+                              width: 7em;
+                              height: 6em;
+                              display: block;
+                              margin: 1em;
+                              margin-left: auto;
+                              margin-right: auto;
+                            " />
+                          <div class="line-rectangular" style="background-color: rgba(
+                            226.0000017285347,
+                            50.000000819563866,
+                            55.00000052154064,
+                            1
+                          );"></div>
+                      </div>
+                      <h1 class="text-header">ANGULAR</h1>
+                      <span class="text-info-style">
+                        Angular is a TypeScript-based free and open-source web
+                        application framework led by the Angular Team at Google and by
+                        a community of individuals and corporations.
+                      </span>
+                      <div class="large-triangle" style="margin-bottom: -5em;">
+                          <div class="small-triangle"></div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item relative float-left w-full">
+            <!-- <div class="e116_11">
+              <div class="e114_50">
+                <div class="e114_51"></div>
+                <div class="e114_52">
+                  <div class="e106_57"></div>
+                  <div class="e106_58"></div>
+                </div>
+                <span class="e114_55"
+                  >Node.js is an open-source, cross-platform, back-end
+                  JavaScript runtime environment that runs on the V8 engine and
+                  executes JavaScript code outside a web browser. </span
+                ><span class="e114_56">NODE JS</span>
+                <div class="e114_57">
+                  <div class="e114_58"></div>
+                  <div class="e114_59"></div>
+                  <div class="e106_11">
+                    <img
+                      src="./images/nodejs.png"
+                      style="
+                        width: 8em;
+                        height: 8em;
+                        position: absolute;
+                        margin-top: -1em;
+                        left: 0px;
+                        top: 0.0001742752647260204px;
+                      "
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="e114_66">
+                <div class="e114_67"></div>
+                <div class="e114_68">
+                  <div class="e106_57"></div>
+                  <div class="e106_58"></div>
+                </div>
+                <span class="e114_71"
+                  >Spring Boot makes it easy to create stand-alone,
+                  production-grade Spring based Applications. We take an
+                  opinionated view of the Spring platform and third-party
+                  libraries so you can get started. </span
+                ><span class="e114_72">SPRING BOOT</span>
+                <div class="e114_73">
+                  <div class="e114_74"></div>
+                  <div class="e114_75"></div>
+                  <div class="e106_11">
+                    <img
+                      src="./images/springboot.png"
+                      style="
+                        width: 7em;
+                        height: 6em;
+                        position: absolute;
+                        left: 0px;
+                        top: 0.0001742752647260204px;
+                      "
+                    />
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <div class="container">
+              <div class="row">
+                  <div class="col col-rectangular">
+                      <div class="rectangular">
+                          <img src="./images/nodejs.png" style="
+                              width: 7em;
+                              height: 6em;
+                              display: block;
+                              margin: 1em;
+                              margin-left: auto;
+                              margin-right: auto;
+                            " />
+                          <div class="line-rectangular" style="background-color: rgba(
+                            83.00000265240669,
+                            158.00000578165054,
+                            67.00000360608101,
+                            1
+                          )"></div>
+                      </div>
+                      <h1 class="text-header">NODE JS</h1>
+                      <span class="text-info-style">
+                        Node.js is an open-source, cross-platform, back-end
+                  JavaScript runtime environment that runs on the V8 engine and
+                  executes JavaScript code outside a web browser.
+                      </span>
+                      <div class="large-triangle">
+                          <div class="small-triangle"></div>
+                      </div>
+      
+                  </div>
+                  <div class="col col-rectangular">
+                      <div class="rectangular">
+                          <img src="./images/springboot.png" style="
+                              width: 7em;
+                              height: 6em;
+                              display: block;
+                              margin: 1em;
+                              margin-left: auto;
+                              margin-right: auto;
+                            " />
+                          <div class="line-rectangular" style="background-color: rgba(
+                            139.0000069141388,
+                            195.0000035762787,
+                            74.0000031888485,
+                            1
+                          )"></div>
+                      </div>
+                      <h1 class="text-header">SPRING BOOT</h1>
+                      <span class="text-info-style">
+                        Spring Boot makes it easy to create stand-alone,
+                  production-grade Spring based Applications. We take an
+                  opinionated view of the Spring platform and third-party
+                  libraries so you can get started. 
+                      </span>
+                      <div class="large-triangle" style="margin-bottom: -5em;">
+                          <div class="small-triangle"></div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item relative float-left w-full">
+            <!-- <div class="e116_13">
+              <div class="e114_81">
+                <div class="e114_82"></div>
+                <div class="e114_83">
+                  <div class="e106_57"></div>
+                  <div class="e106_58"></div>
+                </div>
+                <span class="e114_86"
+                  >Flask is a micro web framework written in Python. It has no
+                  database abstraction layer, form validation, or any other
+                  components where pre-existing third-party libraries provide
+                  common functions.</span
+                ><span class="e114_87">FLASK</span>
+                <div class="e114_88">
+                  <div class="e114_89"></div>
+                  <div class="e114_90"></div>
+                  <div class="e106_11">
+                    <img
+                      src="./images/flask.png"
+                      style="
+                        width: 8em;
+                        height: 8em;
+                        position: absolute;
+                        left: 0px;
+                        top: 0.0001742752647260204px;
+                      "
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="e114_98">
+                <div class="e114_99"></div>
+                <div class="e114_100">
+                  <div class="e106_57"></div>
+                  <div class="e106_58"></div>
+                </div>
+                <span class="e114_103"
+                  >MongoDB is a source-available cross-platform
+                  document-oriented database program. Classified as a NoSQL
+                  database program, MongoDB uses JSON-like documents with
+                  optional schemas.</span
+                ><span class="e114_104">MONGODB</span>
+                <div class="e114_105">
+                  <div class="e114_106"></div>
+                  <div class="e114_107"></div>
+                  <div class="e106_11">
+                    <img
+                      src="./images/mongodb.png"
+                      style="
+                        width: 8em;
+                        height: 6em;
+                        position: absolute;
+                        left: 0px;
+                        top: 0.0001742752647260204px;
+                      "
+                    />
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <div class="container">
+              <div class="row">
+                  <div class="col col-rectangular">
+                      <div class="rectangular">
+                          <img src="./images/flask.png" style="
+                              width: 7em;
+                              height: 6em;
+                              display: block;
+                              margin: 1em;
+                              margin-left: auto;
+                              margin-right: auto;
+                            " />
+                          <div class="line-rectangular" style="background-color: rgba(
+                            219.93750303983688,
+                            219.93750303983688,
+                            219.93750303983688,
+                            1
+                          )"></div>
+                      </div>
+                      <h1 class="text-header">FLASK</h1>
+                      <span class="text-info-style">
+                        Flask is a micro web framework written in Python. It has no
+                  database abstraction layer, form validation, or any other
+                  components where pre-existing third-party libraries provide
+                  common functions.
+                      </span>
+                      <div class="large-triangle">
+                          <div class="small-triangle"></div>
+                      </div>
+      
+                  </div>
+                  <div class="col col-rectangular">
+                      <div class="rectangular">
+                          <img src="./images/mongodb.png" style="
+                              width: 7em;
+                              height: 6em;
+                              display: block;
+                              margin: 1em;
+                              margin-left: auto;
+                              margin-right: auto;
+                            " />
+                          <div class="line-rectangular" style="background-color: rgba(
+                            166.00000530481339,
+                            163.00000548362732,
+                            133.00000727176666,
+                            1
+                          )"></div>
+                      </div>
+                      <h1 class="text-header">MONGODB</h1>
+                      <span class="text-info-style">
+                        MongoDB is a source-available cross-platform
+                  document-oriented database program. Classified as a NoSQL
+                  database program, MongoDB uses JSON-like documents with
+                  optional schemas.
+                      </span>
+                      <div class="large-triangle" style="margin-bottom: -5em;">
+                          <div class="small-triangle"></div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: -8em">
+        <div class="triangle-left-D0"></div>
+        <div class="triangle-left-D10"></div>
+      </div>
+    </div>
+    <div id="our_clients" style="background: #303c6c">
+      <div class="container">
+        <div class="row">
+          <span class="v122_170">Our Clients ..</span>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="w-100" src="./images/xam-warrior.png" />
+            <div style="margin: 2em 0em 3em 0em">
+              <span class="v153_3">
+                A great destination for all your Exam needs !!
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-1">
+            <div class="vertical-line"></div>
+          </div>
+          <div class="col">
+            <img class="w-100 solv-ques" src="./images/solv-ques.png" />
+            <div style="margin: 0em 0em 3em 0em">
+              <span class="v213_4">
+                Solving students doubts in form of Q & A made easy !!
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="position: absolute; right: 0">
+        <div class="triangle-right-c-D0"></div>
+      </div>
+      <div style="position: absolute; right: 0">
+        <div class="triangle-right-c-D10"></div>
+      </div>
+    </div>
+    <div id="services" style="text-align: center">
+      <div class="triangle-left-s-D0"></div>
+      <div class="triangle-left-s-D10"></div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="service">Services provided</div>
+        </div>
+        <div class="row">
+          <span class="service-message">
+            We strive to provide services that would help fulfill institutions grow their online presence.
+            We provide websites to the organization to achieve their business online. We also Specialize in furnishing
+            internships and training for freshmen.
+          </span>
+        </div>
+        <div class="row m-t-5e">
+          <div class="col round pm">
+            <div><img src="./images/internship.png" /></div>
+            <div class="statement m-1em-0em">Internship & Training</div>
+            <div class="message">
+              We provide Internship and Training that you need to kick-start you carrer as a developer so that
+              you can fulfills your idea, project, brand and establishement.
+            </div>
+          </div>
+          <div class="col round pm">
+            <div><img src="./images/seminar.png" /></div>
+            <div class="statement m-1em-0em">Seminars & Webinars</div>
+            <div class="message">
+              Our Seminars, Webinars, and Workshops give you the opportunity to
+              learn through experience and do more of what you love. By getting
+              hands-on from the start, you'll learn better.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: -8em">
+        <div class="triangle-left-D0"></div>
+        <div class="triangle-left-D10"></div>
+      </div>
+    </div>
+    <div id="about_us" class="row" style="--bs-gutter-x: 0rem">
+      <div class="col-7 half-circle-right text-center" id="about">
+        <div class="about">About Us</div>
+        <div class="about-message">
+          DevCode is one of the promising company where a student can get the most of industry exposure 
+          and getting to know about all the new technologies out there and make you confident in those 
+          technologies. Here we develop applications in fields that are most unique and 
+          help students learn new technologies.
+        </div>
+      </div>
+      <div class="col-5" id="about-img">
+        <img
+          src="./images/Information flow.png"
+          class="h-25e img-display-about"
+        />
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="container" id="internship">
+      <div class="row">
+        <div class="col">
+          <img class="center-img w-100-custom" src="./images/contact_us.png" />
+        </div>
+        <div class="col text-center">
+          <div class="feedback">Internships</div>
+          <div class="container">
+            <div class="row">
+              <input
+                class="fields"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Full Name"
+              />
+            </div>
+            <div class="row">
+              <input
+                class="fields"
+                type="text"
+                id="mail"
+                name="mail"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="row">
+              <label for="files" class="fields" id="file-label"
+                >Select Resume</label
+              >
+              <input
+                id="files"
+                style="visibility: hidden; margin-top: -2em"
+                type="file"
+              />
+              <!-- <input class="fields" type="file" id="resume" name="resume" placeholder="Resume"></textarea> -->
+            </div>
+            <button
+              type="submit"
+              class="btn btn-secondary mt-3"
+              style="height: 3em; width: 12em"
+              onclick="submit()"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center footer-custom" id="contact_us">
+      <div class="container">
+        <div class="row">
+          <div class="col"><img src="./images/title.png" /></div>
+          <div class="col">
+            <div class="txt-8E8EAD">
+              &nbsp;&nbsp;&nbsp;  <img src="./images/user.png" class="p-2" /> &nbsp;&nbsp;&nbsp;
+              Gupteshwar Kumar Singh <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;  <img src="./images/user.png" class="p-2" /> &nbsp;&nbsp;&nbsp;
+              Digambar Lenka  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; <br />
+              <img src="./images/message.png" class="p-2" /> &nbsp;&nbsp;&nbsp;
+              careers@devcode.co.in <br />
+              <img src="./images/message.png" class="p-2" /> &nbsp;&nbsp;&nbsp;
+              contact@devcode.co.in <br />
+              <img
+                src="./images/call.png"
+                class="p-2"
+                style="margin-left: -2.5em"
+              />
+               &nbsp;&nbsp;&nbsp; +91 8313456723
+              <!--<br />
+              <img src="./images/location.png" class="p-2" /> &nbsp;&nbsp;&nbsp;
+              Sasaram, Rohtas, Bihar <br /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"></div>
+      <div class="footer-line"></div>
+      ©
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      DevCode
+    </div>
+  </body>
+  <script src="./script/main.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
